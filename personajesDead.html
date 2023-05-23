@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&M Muertos</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http.//fonts.googleapis.com/css" family=tangerine>
+</head>
+<body>
+
+    <header>
+        <div class="titulo">
+            <h1>Rick and Morty</h1>
+        </div>
+    <nav>
+            <ul class="menu-si">
+                <li class="active">
+                    <div class="button">
+                        <!--aquí ícono-->
+                        <a href="rickMortyIndex.html" class="link">Todos</a>
+    
+                    </div>
+                </li>
+    
+                <li class="item">
+                    <div class="button">
+                        <!--AQUÍ ICONO-->
+                        <a href="/personajesAlive.html" class="link">Personajes Vivos</a>
+                        <form action="personajesAlive.php" method="post"></form>
+                        <!--AQUÍ ICONO DE FLECHA-->
+    
+                    </div>
+                </li>
+    
+    
+                <li class="item">
+                    <div class="button">
+                        <!--aquí ícono-->
+                        <a href="personajesDead.html" class="link">Personajes Muertos</a>
+                    </div>
+                </li>
+    
+                <li class="item">
+                    <div class="button">
+                        <!--aquí ícono-->
+                        <a href="personajesUnknown.html" class="link">Personajes Desconocidos</a>
+                        <!--aquí ícono de flecha opcion-->
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="button">
+                        <!--aquí ícono-->
+                        <a href="acercaDe.html" class="link">Sabías qué?</a>
+                    </div>
+                </li>
+    
+            </ul>
+    </nav>
+    </header>
+
+    <ul id="character-list">
+
+    </ul>
+
+    <script src="scriptMuertos.js">
+
+    </script>
+
+    <footer id="footer">
+        <div>
+                <a href="https://rickandmortyapi.com">API Rick and Morty</a>
+        </div>
+    </footer>
+</body>
+</html>
